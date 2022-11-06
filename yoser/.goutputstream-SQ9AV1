@@ -1,0 +1,6 @@
+#include <stdio.h>
+#include "utilisateur.h"
+#include <string.h>
+void ajout_user(char *fileutilisateur,ut)
+{			
+
