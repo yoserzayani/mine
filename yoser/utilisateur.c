@@ -65,7 +65,7 @@ int supprimer_user(char * fileuser, int cin)
 	return trouve;
 }
 
-utilisateur chercher(char * fileuser,int cin)
+utilisateur chercher_user(char * fileuser,int cin)
 {
 	utilisateur u;
 	int trouve;
