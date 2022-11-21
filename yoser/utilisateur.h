@@ -15,13 +15,14 @@ typedef struct
 	int cin_user;
 	char role_user[50];
 	char genre_user[50];
-	char nationalite_obs[50];
-	char app_politique_obs[50];
 	int num_bv_user;
 	int vote_user;
+	char nationalite_obs[50];
+	char app_politique_obs[50];
+	char profession_obs[50];	
 }utilisateur;
 int ajout_user(char * fileuser,utilisateur u);
-int modifier_user(char * fileuser,int cin,utilisateur nouv);
+int modifier_user(char * fileuser,int id,utilisateur nouv);
 int supprimer_user(char * fileuser, int cin);
 utilisateur chercher_user(char * fileuser,int cin);
 #endif

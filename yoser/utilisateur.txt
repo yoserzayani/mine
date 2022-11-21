@@ -1,6 +1,11 @@
-nom1 prenom1 12 12 2000 14415777 observateur homme tunisienne gauche 22 1
-nom1 prenom1 12 12 2000 14415777 observateur homme tunisienne gauche 22 1
-nom1 prenom1 12 12 2000 14415777 observateur homme tunisienne gauche 22 1
-nom1 prenom1 12 12 2000 14415777 observateur homme tunisienne gauche 22 1
-nom1 prenom1 12 12 2000 14415777 observateur homme tunisienne gauche 22 1
-nom2 prenom2 10 11 2001 14415771 admin homme tunisienne gauche 1 1
+nom1 prenom1 12 12 2000 14415777 observateur homme 3 1 tunisienne gauche professeur  
+nom2 prenom2 10 11 2001 14415771 admin homme 1 1 ** ** **  
+nom2 prenom2 10 11 2001 14415771 admin homme 1 1 ** ** **  
+nom3 prenom3 12 11 1999 14423547 observateur femme 1 1 tunisienne droit etudiant  
+nom1 prenom1 12 12 2000 14415777 observateur homme 3 1 tunisienne gauche professeur  
+nom2 prenom2 10 11 2001 14415771 admin homme 1 1 ** ** **  
+nom2 prenom2 10 11 2001 14415771 admin homme 1 1 ** ** **  
+nom3 prenom3 12 11 1999 14423547 observateur femme 1 1 tunisienne droit etudiant  
+nom1 prenom1 12 12 2000 14415777 observateur homme 3 1 tunisienne gauche professeur  
+nom2 prenom2 10 11 2001 14415771 admin homme 1 1 ** ** **  
+nom3 prenom3 12 11 1999 14423547 observateur femme 1 1 tunisienne droit etudiant  
