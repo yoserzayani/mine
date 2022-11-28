@@ -9,7 +9,7 @@ float TVB(char * fileuser)
 	float nb_votes;
 	FILE *f=fopen(fileuser,"r");
 	if (f!=NULL)
-	{	while (fscanf(f,"%s %s %d %d %d %d %s %s %d %d %s %s %s\n",u.nom_user,u.prenom_user,&u.date.jour,&u.date.mois,&u.date.annee,&u.cin_user,u.role_user,u.genre_user,&u.num_bv_user,&u.vote_user,u.nationalite_obs,u.app_politique_obs,u.profession_obs)!=EOF)
+	{	while (fscanf(f,"%s %s %d %d %d %s %s %s %d %d %s %s %s\n",u.nom_user,u.prenom_user,&u.date.jour,&u.date.mois,&u.date.annee,u.cin_user,u.role_user,u.genre_user,&u.num_bv_user,&u.vote_user,u.nationalite_obs,u.app_politique_obs,u.profession_obs)!=EOF)
 		{	nb_votes++;
 			if(u.vote_user==0)
 			{	
@@ -32,8 +32,8 @@ void TPHF (char *fileuser,int *f,int *h)
 	int F;
 	FILE *f1=fopen(fileuser,"r");
 	if(f!=NULL)
-	{	while((fscanf(f1,"%s %s %d %d %d %d %s %s %d %d %s %s %s\n ",u.nom_user,u.prenom_user,&u.date.jour,&u.date.mois,&u.date.annee,&u.cin_user,u.role_user,u.genre_user,&u.num_bv_user,&u.vote_user,u.nationalite_obs,u.app_politique_obs,u.profession_obs)!=EOF))
-		{	if (u.vote_user==1)
+	{	while((fscanf(f1,"%s %s %d %d %d %s %s %s %d %d %s %s %s\n ",u.nom_user,u.prenom_user,&u.date.jour,&u.date.mois,&u.date.annee,u.cin_user,u.role_user,u.genre_user,&u.num_bv_user,&u.vote_user,u.nationalite_obs,u.app_politique_obs,u.profession_obs)!=EOF))
+		{	if (u.vote_user!=-1)
 			{	if (strcasecmp(u.genre_user,"homme")==0)	
 				{	
 					H++;

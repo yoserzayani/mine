@@ -5,6 +5,8 @@
 int main(){
   float T;
   int f,h;
-  T=TVB("tvb.txt");
-  TPHF ("TPHF.txt",&f,&h);
+  T=TVB("utilisateur.txt");
+  printf("%f",T);
+  TPHF ("utilisateur.txt",&f,&h);
+return 0;
 }
